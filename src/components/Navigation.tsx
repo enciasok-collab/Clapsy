@@ -45,13 +45,13 @@ export default function Navigation() {
         <div className="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="relative w-8 h-8 rounded-full bg-gradient-to-tr from-brand-olive to-brand-olive-light flex items-center justify-center border border-brand-gold/20 shadow-inner p-1 overflow-hidden">
-              <svg className="w-5 h-5 text-brand-gold group-hover:scale-110 transition-transform duration-500" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="9.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M50 15 C34 35 34 58 50 78 C66 58 66 35 50 15 Z" transform="rotate(0, 50, 50)" />
-                <path d="M50 15 C34 35 34 58 50 78 C66 58 66 35 50 15 Z" transform="rotate(120, 50, 50)" />
-                <path d="M50 15 C34 35 34 58 50 78 C66 58 66 35 50 15 Z" transform="rotate(240, 50, 50)" />
-              </svg>
-              <div className="absolute inset-0 bg-brand-gold/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+            <div className="relative w-9 h-9 rounded-xl border border-brand-gold/20 overflow-hidden bg-brand-beige-dark/10 shrink-0 flex items-center justify-center p-0.5">
+              <img 
+                src="https://i.postimg.cc/xJXhLdHq/clapsy.jpg" 
+                alt="clapsy" 
+                className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-brand-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-lg leading-none tracking-tight text-brand-beige">

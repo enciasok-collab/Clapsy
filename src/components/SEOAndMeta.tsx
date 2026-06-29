@@ -23,14 +23,14 @@ export default function SEOAndMeta() {
     };
 
     // SEO Meta Tags
-    updateMetaTag("description", "Descubre Clapsy Sleep, el método clínico creado por el Dr. Manuel Migueles Rojas que fusiona neurociencia, medicina maxilofacial y psicología para eliminar el insomnio, aliviar el bruxismo y regular la ansiedad nocturna.");
-    updateMetaTag("keywords", "Dormir mejor, insomnio, bruxismo, ansiedad, dormir rápido, sueño profundo, medicina del sueño, tensión mandibular, relajación, mindfulness, estrés nocturno, Dr Manuel Migueles");
-    updateMetaTag("author", "Dr. Manuel Migueles Rojas & Clapsy Sleep");
+    updateMetaTag("description", "Descubre Clapsy Sleep, el método clínico digital que fusiona neurociencia, medicina maxilofacial y psicología para eliminar el insomnio, aliviar el bruxismo y regular la ansiedad nocturna.");
+    updateMetaTag("keywords", "Dormir mejor, insomnio, bruxismo, ansiedad, dormir rápido, sueño profundo, medicina del sueño, tensión mandibular, relajación, mindfulness, estrés nocturno");
+    updateMetaTag("author", "Clapsy Sleep");
     updateMetaTag("robots", "index, follow");
 
     // Open Graph / Facebook Meta Tags
     updateMetaTag("og:title", "Clapsy Sleep | Método Clínico de Descanso y Alivio Mandibular", true);
-    updateMetaTag("og:description", "Recupera tu vitalidad. El primer método digital enfocado en la descompresión mandibular, el estrés y la calidad del sueño, fundado por el Dr. Manuel Migueles Rojas.", true);
+    updateMetaTag("og:description", "Recupera tu vitalidad. El primer método clínico digital enfocado en la descompresión mandibular, el estrés y la calidad del sueño.", true);
     updateMetaTag("og:type", "website", true);
     updateMetaTag("og:url", window.location.href, true);
     updateMetaTag("og:site_name", "Clapsy Sleep", true);
@@ -60,7 +60,7 @@ export default function SEOAndMeta() {
           "@id": window.location.href + "#webpage",
           "url": window.location.href,
           "name": "Clapsy Sleep - Tratamiento Clínico del Insomnio y Bruxismo",
-          "description": "Plataforma digital para la mejora del sueño profundo y control del bruxismo nocturno, creada por el Dr. Manuel Migueles Rojas.",
+          "description": "Plataforma digital para la mejora del sueño profundo y control del bruxismo nocturno.",
           "isPartOf": {
             "@type": "WebSite",
             "@id": window.location.href + "#website",

@@ -46,7 +46,7 @@ export default function App() {
                 transition={{ duration: 0.5 }}
                 className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-olive/20 border border-brand-olive-light/20 text-xs text-brand-beige-dark font-mono uppercase tracking-widest"
               >
-                <Award className="w-3.5 h-3.5 text-brand-gold" /> MÉTODO CLÍNICO MAXILOFACIAL
+                <Award className="w-3.5 h-3.5 text-brand-gold" /> MÉTODO CLÍNICO DIGITAL
               </motion.div>
 
               {/* Main Headline */}
@@ -69,7 +69,7 @@ export default function App() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="font-sans text-brand-beige-dark/85 text-base md:text-xl max-w-2xl leading-relaxed"
               >
-                El primer método digital creado por el <strong>Dr. Manuel Migueles Rojas</strong> que fusiona neurobiología, 
+                El primer método digital que fusiona neurobiología, 
                 medicina mandibular (ATM) y relajación cognitiva para apagar el bruxismo, silenciar el insomnio 
                 y devolverte tu energía vital diurna.
               </motion.p>
@@ -363,12 +363,12 @@ export default function App() {
             {/* Column 1: Brand & Logo */}
             <div className="md:col-span-5 space-y-4 text-left">
               <a href="#" className="flex items-center gap-2 group">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-brand-olive to-brand-olive-light flex items-center justify-center border border-brand-gold/20 shadow-inner p-1 overflow-hidden">
-                  <svg className="w-5 h-5 text-brand-gold group-hover:scale-110 transition-transform duration-500" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="9.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M50 15 C34 35 34 58 50 78 C66 58 66 35 50 15 Z" transform="rotate(0, 50, 50)" />
-                    <path d="M50 15 C34 35 34 58 50 78 C66 58 66 35 50 15 Z" transform="rotate(120, 50, 50)" />
-                    <path d="M50 15 C34 35 34 58 50 78 C66 58 66 35 50 15 Z" transform="rotate(240, 50, 50)" />
-                  </svg>
+                <div className="w-9 h-9 rounded-xl border border-brand-gold/20 overflow-hidden bg-brand-beige-dark/10 flex items-center justify-center p-0.5 shrink-0">
+                  <img 
+                    src="https://i.postimg.cc/xJXhLdHq/clapsy.jpg" 
+                    alt="clapsy" 
+                    className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
                 <div className="flex flex-col">
                   <span className="font-display font-bold text-lg leading-none text-brand-beige">
