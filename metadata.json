@@ -1,0 +1,6 @@
+{
+  "name": "Clapsy Sleep",
+  "description": "Recupera tu descanso. Recupera tu vida. Un método clínico basado en neurociencia para combatir el insomnio, el bruxismo y la ansiedad nocturna.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
