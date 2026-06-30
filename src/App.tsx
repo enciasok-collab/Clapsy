@@ -267,9 +267,6 @@ export default function App() {
                 “El bruxismo no es una enfermedad dental, es una respuesta neurológica y neuromuscular. 
                 Tratar el bruxismo solo con férulas rígidas es como tratar la ansiedad solo recomendando un casco.”
               </p>
-              <p className="text-xs text-brand-beige-dark/60 font-mono mt-1">
-                — Dr. Manuel Migueles Rojas, Especialista en ATM y Rehabilitación Oral
-              </p>
             </div>
           </div>
 
