@@ -6,6 +6,9 @@
 import { motion } from "motion/react";
 import { Moon, Sparkles, ShieldCheck, Award, Star, ChevronRight, Activity, Zap, CheckCircle2, HeartPulse, Brain, AlertTriangle } from "lucide-react";
 
+// Images
+import clapsyAppMockup from "./assets/images/clapsy_app_mockup_1782773774411.jpg";
+
 // Modular Imports
 import SEOAndMeta from "./components/SEOAndMeta";
 import Navigation from "./components/Navigation";
@@ -141,7 +144,7 @@ export default function App() {
                 className="relative w-72 md:w-80 h-[520px] md:h-[580px] rounded-[48px] bg-brand-charcoal border-4 border-brand-olive-light/15 p-3 shadow-[0_35px_80px_-15px_rgba(0,0,0,0.85)] overflow-hidden animate-float"
               >
                 <img
-                  src="/src/assets/images/clapsy_app_mockup_1782773774411.jpg"
+                  src={clapsyAppMockup}
                   alt="Clapsy Sleep Premium Mobile App UI"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover rounded-[36px]"

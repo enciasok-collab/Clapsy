@@ -6,6 +6,9 @@
 import { motion } from "motion/react";
 import { Award, GraduationCap, Calendar, Users, ClipboardList, Quote } from "lucide-react";
 
+// Images
+import drManuelPortrait from "../assets/images/dr_manuel_portrait_1782773790193.jpg";
+
 export default function DrManuelSection() {
   const credentials = [
     {
@@ -91,7 +94,7 @@ export default function DrManuelSection() {
 
               {/* Photo */}
               <img
-                src="/src/assets/images/dr_manuel_portrait_1782773790193.jpg"
+                src={drManuelPortrait}
                 alt="Dr. Manuel Migueles Rojas, Fundador de Clapsy Sleep"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover rounded-xl grayscale-[20%] hover:grayscale-0 transition-all duration-700"
